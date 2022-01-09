@@ -8,7 +8,7 @@ cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
 font = cv2.FONT_HERSHEY_SIMPLEX
 
 #With Cascade-Trainer-GUI, I prepared a cascade.xml
-qr_cascade = cv2.CascadeClassifier("qr-cascade/classifier/cascade.xml")
+qr_cascade = cv2.CascadeClassifier("classifier/cascade.xml")
 
 while True:
     ret, frame = cap.read()
